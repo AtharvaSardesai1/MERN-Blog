@@ -32,7 +32,7 @@ export default function Header() {
                 <FaMoon/>
             </button>
             <Link to='/sign-in'>
-                <Button gradientDuoTone="purpleToBlue" className="px-6 py-2 text-lg">Sign In</Button>
+                <Button gradientDuoTone="purpleToBlue" outline className="px-6 py-2 text-lg">Sign In</Button>
             </Link> 
             <Navbar.Toggle></Navbar.Toggle>       
         </div>

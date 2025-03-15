@@ -1,0 +1,26 @@
+{
+  "name": "online-blogging-platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtharvaSardesai1/MERN-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtharvaSardesai1/MERN-Blog/issues"
+  },
+  "homepage": "https://github.com/AtharvaSardesai1/MERN-Blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
