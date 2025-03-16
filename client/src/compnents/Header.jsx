@@ -27,12 +27,12 @@ export default function Header() {
         <button className='w-12 h-10 lg:hidden' color='gray' pill="true">
             <AiOutlineSearch/>
         </button>
-        <div className='flex gap-2 md:order-2'>
+        <div className='flex gap-2 md:order-2 items-center'>
             <button className='w-12 h-10 hidden sm:inline' color='gray' pill="true">
                 <FaMoon/>
             </button>
             <Link to='/sign-in'>
-                <Button gradientDuoTone="purpleToBlue" outline className="px-6 py-2 text-lg border-2 border-transparent hover:border-blue-500">Sign In</Button>
+                <Button gradientDuoTone="purpleToBlue" className="px-6 py-2 text-lg border-2 border-transparent hover:border-blue-500">Sign In</Button>
             </Link> 
             <Navbar.Toggle></Navbar.Toggle>       
         </div>
