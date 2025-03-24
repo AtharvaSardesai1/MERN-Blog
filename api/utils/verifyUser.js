@@ -13,3 +13,6 @@ export const verifyToken = (req, res, next) => {
     next();
   });
 };
+export const updateUser = (req, res, next)=>{
+  
+}
